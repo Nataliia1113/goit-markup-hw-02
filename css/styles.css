@@ -23,39 +23,35 @@ ol {
 .header {
 }
 .nav {
-}
-.logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  color: #4d5ae5;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.logo {
+  color: #4d5ae5;
 }
 .nav-logo-accent {
   color: #2e2f42;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 .nav-list {
 }
 .nav-list-item {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.contacts-list .list-link {
+.contacts-list,
+.nav-list-item {
   color: #434455;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
-.list-link {
-}
+
 .list-link:hover,
 .list-link:focus {
   color: #404bbf;
